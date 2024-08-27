@@ -1,0 +1,81 @@
+body{
+    background-image: url("curr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+h1{
+    color:white;
+    font-family: "Dancing Script";
+    text-align: center;
+    margin-top: 12vh;
+}
+h2{
+    margin-top: 5vh;
+}
+.box{
+    width: 50%;
+    backdrop-filter: blur(5px);
+    border: 2px solid #1abc9c;
+    color: white;
+    margin: 1vh;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box input {
+    margin: 20px 0;
+}
+.amt{
+font-size: 1rem;
+width: 50%;
+display:inline;
+}
+.sub{
+    font-size: 1.2rem;
+}
+.form-select{
+    font-size: 1rem;
+    display: inline;
+    width: 30%;
+}
+.res{
+    border-radius: 15px;
+    font-family: "Montserrat";
+    font-size: 1.6rem;
+    color: black;
+    height: 45px;
+}
+button{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    background-color: #1abc9c;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+@media (max-width: 768px) {
+    body{
+        background-image: url("curr.jpg");
+        background-size: 100% 120% ;
+    }
+    .box {
+        width: 80%;
+    }
+    .form-select{
+        font-size: 1rem;
+        display: inline;
+        width: 50%;
+    }
+    button{
+        size: 10%;
+        font-size: 1.1rem;
+        background-color: aqua;
+    }
+}
