@@ -7,7 +7,7 @@ This project showcases the seamless integration of third-party APIs, effective c
 ---
 
 ## 🚀 Live Preview
-Click on 👇
+Click on 👇<br/>
 [Currency Converter](https://mycurrencyconv.vercel.app/)
 ---
 ---
